@@ -59,8 +59,11 @@ def cross_validation_with_val_set(dataset, model, folds, epochs, batch_size,
 
         t_end = time.perf_counter()
         durations.append(t_end - t_start)
+        
+        break
 
     loss, acc, duration = tensor(val_losses), tensor(accs), tensor(durations)
+    folds = 1
     loss, acc = loss.view(folds, epochs), acc.view(folds, epochs)
     loss, argmin = loss.min(dim=1)
     acc = acc[torch.arange(folds, dtype=torch.long), argmin]
