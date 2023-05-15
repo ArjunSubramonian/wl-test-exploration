@@ -16,4 +16,4 @@ To run the experiments on the alignment of 1-WL colorings with GIN representatio
 
 ## License
 
-Some utilities code files are adapted from the [PyTorch Geometric library](https://github.com/pyg-team/pytorch_geometric); these files contain PyTorch Geometric's copyright notice. All other code is written by the authors.
+Some utilities code files are adapted from the [PyTorch Geometric library](https://github.com/pyg-team/pytorch_geometric) and [nifty repository](https://github.com/chirag126/nifty); these files contain the appropriate copyright notices. All other code is written by the authors.
