@@ -1,4 +1,4 @@
-# Weisfeiler and Lehman Go Measurement Modeling: Probing the Validity of the WL test
+# Weisfeiler and Lehman Go Measurement Modeling: Probing the Validity of the WL Test
 
 This repository is the official implementation of Weisfeiler and Lehman Go Measurement Modeling: Probing the Validity of $k$-WL. 
 
